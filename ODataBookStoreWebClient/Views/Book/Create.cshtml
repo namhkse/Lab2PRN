@@ -1,0 +1,38 @@
+﻿@model ODataBookStoreWebClient.Models.Book
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Create Book</h1>
+<form method="post" asp-controller="Book" asp-action="Create">
+    <div>
+        <lable>Title </lable>
+        </lable><input asp-for="Title" />
+    </div>
+    <div>
+        <lable>ISBN </lable>
+        <input asp-for="ISBN" />
+    </div>
+    <div>
+        <label>Author</label>
+        <input asp-for="Author" />
+    </div>
+    <div>
+        <label>Price</label>
+        <input asp-for="Price" />
+    </div>
+    <div>
+        <label>City</label>
+        <input asp-for="Location.City" />
+    </div>
+    <div>
+        <label>Street</label>
+        <input asp-for="Location.Street" />
+    </div>
+    <div>
+        <button type="submit">Create</button>
+    </div>
+</form>

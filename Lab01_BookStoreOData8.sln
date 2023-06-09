@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataBookStore", "ODataBookStore\ODataBookStore.csproj", "{294156E5-B1E8-43A6-B432-F9C24C2084D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataBookStoreWebClient", "ODataBookStoreWebClient\ODataBookStoreWebClient.csproj", "{3F8237D2-D5AC-4DA0-B68C-2397D20D6FF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{294156E5-B1E8-43A6-B432-F9C24C2084D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294156E5-B1E8-43A6-B432-F9C24C2084D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294156E5-B1E8-43A6-B432-F9C24C2084D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294156E5-B1E8-43A6-B432-F9C24C2084D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F8237D2-D5AC-4DA0-B68C-2397D20D6FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8237D2-D5AC-4DA0-B68C-2397D20D6FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8237D2-D5AC-4DA0-B68C-2397D20D6FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8237D2-D5AC-4DA0-B68C-2397D20D6FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E5F05EA-DC7B-49D0-963F-F11E1ACCA5B0}
+	EndGlobalSection
+EndGlobal
